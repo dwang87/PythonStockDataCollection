@@ -20,5 +20,5 @@ while i<len(symbolslist):
 
     price = re.findall(pattern, htmltext)
 
-    print price
+    print "the price of",symbolslist[i]," is ", price
     i+=1
